@@ -24,7 +24,7 @@ export default defineConfig({
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
    reporter: [
     ['line'], // clean console logs in CI
-    ['html', { outputFolder: 'playwright-report', open: 'never' }],
+    ['html'], 
     ['allure-playwright']
   ],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
