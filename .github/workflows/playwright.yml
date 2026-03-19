@@ -46,7 +46,6 @@ jobs:
       with:
        personal_token: ${{ secrets.GH_PAT }}
        publish_dir: ./allure-report
-
     # # ✅ Upload Playwright HTML report
     # - name: Upload Playwright Report
     #   uses: actions/upload-artifact@v4
