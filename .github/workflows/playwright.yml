@@ -47,10 +47,6 @@ jobs:
        personal_token: ${{ secrets.GH_PAT }}
        publish_dir: ./allure-report
 
-       
-    - name: Set up remote with PAT
-      run: |
-       git remote set-url origin https://x-access-token:${{ secrets.GH_PAT }}@github.com/vandanab1/Playwright-Repo.git
     # # ✅ Upload Playwright HTML report
     # - name: Upload Playwright Report
     #   uses: actions/upload-artifact@v4
