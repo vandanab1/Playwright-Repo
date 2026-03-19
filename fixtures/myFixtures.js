@@ -9,6 +9,7 @@ const test = base.extend({
   productPage: async ({page},use) => {
     await use(new ProductPage(page));
   },
+  
 });
 module.exports = {test,expect};
 
