@@ -32,8 +32,8 @@ jobs:
             echo "BASE_URL=${{ secrets.STAGING_BASE_URL }}" >> $GITHUB_ENV
           elif [ "${{ github.event.inputs.environment }}" = "prod" ]; then
             echo "BASE_URL=${{ secrets.PROD_BASE_URL }}" >> $GITHUB_ENV
-          else
-            echo "BASE_URL=${{ secrets.DEV_BASE_URL }}" >> $GITHUB_ENV
+          # else
+          #   echo "BASE_URL=${{ secrets.DEV_BASE_URL }}" >> $GITHUB_ENV
           fi
 
       - name: Verify BASE_URL
