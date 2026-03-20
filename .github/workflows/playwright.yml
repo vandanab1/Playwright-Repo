@@ -48,7 +48,6 @@ jobs:
           # else
           #   echo "BASE_URL=${{ secrets.DEV_BASE_URL }}" >> $GITHUB_ENV
           # fi
-
       - name: Debug ENV + URL
         run: |
          echo "ENV=$ENV"
