@@ -1,3 +1,6 @@
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 name: Playwright Tests
 on:
   push:
@@ -42,7 +45,7 @@ jobs:
 
     - name: Deploy Allure Report to GitHub Pages
       if: always()
-      uses: peaceiris/actions-gh-pages@v4
+      uses: peaceiris/actions-gh-pages@v3
       with:
        personal_token: ${{ secrets.GH_PAT }}
        publish_dir: ./allure-report
