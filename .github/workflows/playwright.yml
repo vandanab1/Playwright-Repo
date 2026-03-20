@@ -1,4 +1,5 @@
 name: CI Pipeline
+
 on:
   workflow_dispatch:      # allows manual trigger with input
     inputs:
@@ -12,62 +13,58 @@ on:
           - staging
           - prod
   push:
-    branches: [ "main", "dev" ]
+    branches: ["main", "dev"]
   pull_request:
-    branches: [ "main", "dev" ]
+    branches: ["main", "dev"]
 
 jobs:
   build-and-test:
     runs-on: ubuntu-latest
 
-    # env:
-    #   BASE_URL: ${{ 
-    #    github.event.inputs.environment == 'dev' && secrets.DEV_BASE_URL || 
-    #    github.event.inputs.environment == 'staging' && secrets.STAGING_BASE_URL || 
-    #    github.event.inputs.environment == 'prod' && secrets.PROD_BASE_URL 
-    #   }}
-
     steps:
-     - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-     - name: Set BASE_URL for environment
-       id: set-env
-       run: |
-        if [ "${{ github.event.inputs.environment }}" == "dev" ]; then
-            echo "BASE_URL= ${{ secrets.DEV_BASE_URL }}" >> $GITHUB_ENV
-        elif [ "${{ github.event.inputs.environment }}" == "staging" ]; then
-            echo "BASE_URL= ${{ secrets.STAGING_BASE_URL }}" >> $GITHUB_ENV
-        elif [ "${{ github.event.inputs.environment }}" == "prod" ]; then
-            echo "BASE_URL= ${{ secrets.PROD_BASE_URL }}" >> $GITHUB_ENV
-        else
-            echo "BASE_URL=http://localhost:3000" >> $GITHUB_ENV
-        fi
+      - name: Set BASE_URL for environment
+        id: set-env
+        run: |
+          if [ "${{ github.event.inputs.environment }}" == "dev" ]; then
+              echo "BASE_URL=${{ secrets.DEV_BASE_URL }}" >> $GITHUB_ENV
+          elif [ "${{ github.event.inputs.environment }}" == "staging" ]; then
+              echo "BASE_URL=${{ secrets.STAGING_BASE_URL }}" >> $GITHUB_ENV
+          elif [ "${{ github.event.inputs.environment }}" == "prod" ]; then
+              echo "BASE_URL=${{ secrets.PROD_BASE_URL }}" >> $GITHUB_ENV
+          else
+              echo "BASE_URL=http://localhost:3000" >> $GITHUB_ENV
+          fi
 
-     - name: Setup Node.js
-       uses: actions/setup-node@v4
-       with:
-        node-version: '22'
+      - name: Verify BASE_URL
+        run: |
+          echo "BASE_URL is set to: $BASE_URL"
 
-     - name: Install dependencies
-       run: npm install
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
 
-     - name: Install dependencies
-       run: npx playwright install --with-deps
+      - name: Install dependencies & Playwright
+        run: |
+          npm install
+          npx playwright install --with-deps
 
-     - name: Run Playwright tests
-       run: npx playwright test
+      - name: Run Playwright tests
+        run: npx playwright test
 
-     - name: Install Allure CLI
-       run: npm install -g allure-commandline --force
+      - name: Install Allure CLI
+        run: npm install -g allure-commandline --force
 
-     - name: Generate Allure report
-       run: allure generate allure-results --clean -o allure-report
+      - name: Generate Allure report
+        run: allure generate allure-results --clean -o allure-report
 
-     - name: Upload Allure report artifact
-       if: always()
-       uses: actions/upload-pages-artifact@v4
-       with:
-        path: allure-report/
+      - name: Upload Allure report artifact
+        if: always()
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: allure-report/
 
   deploy:
     needs: build-and-test
@@ -79,4 +76,3 @@ jobs:
       - name: Deploy Allure report to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
