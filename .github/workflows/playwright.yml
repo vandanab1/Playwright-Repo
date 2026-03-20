@@ -34,11 +34,11 @@ jobs:
        id: set-env
        run: |
         if [ "${{ github.event.inputs.environment }}" == "dev" ]; then
-            echo "BASE_URL=${{ secrets.DEV_BASE_URL }}" >> $GITHUB_ENV
+            echo "BASE_URL= ${{ secrets.DEV_BASE_URL }}" >> $GITHUB_ENV
         elif [ "${{ github.event.inputs.environment }}" == "staging" ]; then
-            echo "BASE_URL=${{ secrets.STAGING_BASE_URL }}" >> $GITHUB_ENV
+            echo "BASE_URL= ${{ secrets.STAGING_BASE_URL }}" >> $GITHUB_ENV
         elif [ "${{ github.event.inputs.environment }}" == "prod" ]; then
-            echo "BASE_URL=${{ secrets.PROD_BASE_URL }}" >> $GITHUB_ENV
+            echo "BASE_URL= ${{ secrets.PROD_BASE_URL }}" >> $GITHUB_ENV
         else
             echo "BASE_URL=http://localhost:3000" >> $GITHUB_ENV
           fi
