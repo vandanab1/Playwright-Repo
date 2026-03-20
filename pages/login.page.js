@@ -6,7 +6,7 @@ export class LoginPage {
     this.loginButton = '#login-button';
     }
   async goto() {
-    await this.page.goto('https://www.saucedemo.com/');
+    await this.page.goto('/');
   }
   async login(username, password) {
     await this.page.fill(this.usernameInput,username);
