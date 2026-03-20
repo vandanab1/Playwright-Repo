@@ -9,33 +9,37 @@ jobs:
   build-and-test:
     runs-on: ubuntu-latest
 
-    steps:
-    - name: Checkout
-      uses: actions/checkout@v4
+    env:
+      BASE_URL: ${{ secrets.BASE_URL }}
 
-    - name: Setup Node.js
-      uses: actions/setup-node@v4
-      with:
+    steps:
+     - name: Checkout
+       uses: actions/checkout@v4
+
+     - name: Setup Node.js
+       uses: actions/setup-node@v4
+       with:
         node-version: '22'
 
-    - name: Install dependencies
-      run: npm install
+     - name: Install dependencies
+       run: npm install
 
-    - name: Install dependencies
-      run: npx playwright install --with-deps
+     - name: Install dependencies
+       run: npx playwright install --with-deps
 
-    - name: Run Playwright tests
-      run: npx playwright test
+     - name: Run Playwright tests
+       run: npx playwright test
 
-    - name: Install Allure CLI
-      run: npm install -g allure-commandline --force
+     - name: Install Allure CLI
+       run: npm install -g allure-commandline --force
 
-    - name: Generate Allure report
-      run: allure generate allure-results --clean -o allure-report
+     - name: Generate Allure report
+       run: allure generate allure-results --clean -o allure-report
 
-    - name: Upload Allure report artifact
-      uses: actions/upload-pages-artifact@v4
-      with:
+     - name: Upload Allure report artifact
+       if: always()
+       uses: actions/upload-pages-artifact@v4
+       with:
         path: allure-report/
 
   deploy:
