@@ -3,7 +3,7 @@ export class LoginPage {
     this.page = page;
     this.usernameInput = '#user-name';
     this.passwordInput = '#password';
-    //this.loginButton = '#login-button';
+    this.loginButton = '#login-button';
     }
   async goto() {
     await this.page.goto('https://www.saucedemo.com/');
