@@ -52,13 +52,16 @@ jobs:
           npx playwright install --with-deps
 
       - name: Run Playwright tests
-        run: npx playwright test
+        run: |
+          npx playwright test
 
       - name: Install Allure CLI
-        run: npm install -g allure-commandline --force
+        run: |
+          npm install -g allure-commandline --force
 
       - name: Generate Allure report
-        run: allure generate allure-results --clean -o allure-report
+        run: |
+          allure generate allure-results --clean -o allure-report
 
       - name: Upload Allure report artifact
         if: always()
