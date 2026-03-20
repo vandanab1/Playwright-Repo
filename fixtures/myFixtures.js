@@ -3,6 +3,7 @@ const {LoginPage} = require('@pages/login.page');
 const {ProductPage} = require('@pages/product.page');
 
 const test = base.extend({
+  //custom page objects
   loginPage: async ({page},use) => {
   await use(new LoginPage(page));
   },
