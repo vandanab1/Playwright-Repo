@@ -1,9 +1,14 @@
 const { test, expect} = require('@fixtures/myFixtures');
 const loginData = require('@data/loginData.json');
 
+test.describe('Login Tests', () => {
+   
+    test.beforeEach(async ({ loginPage }) => {
+    await loginPage.goto();
+  });
+
 for (const user of loginData) {
 test(`Login test for ${user.username}`, async({loginPage})=>{
-await loginPage.goto();
 await loginPage.login(user.username,user.password);
 
 if(user.expected === "success"){
@@ -12,7 +17,8 @@ expect(title).toBe('Swag Labs');
 }
 else{
       const errorMessage = await loginPage.getErrorMessage();
-      expect(errorMessage).toMatch(/Username and password do not match|Sorry, this user has been locked out./); 
+expect(errorMessage).toContain("Epic sadface: Sorry, this user has been locked out.");
     }
-})
+});
 }
+});

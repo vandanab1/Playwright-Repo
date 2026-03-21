@@ -1,24 +1,27 @@
 export class LoginPage {
     constructor(page) {
     this.page = page;
-    this.usernameInput = '#user-name';
-    this.passwordInput = '#password';
-    this.loginButton = '#login-button';
+    this.usernameInput = page.locator('#user-name');
+    this.passwordInput = page.locator('#password');
+    this.loginButton = page.locator('#login-button');
     this.errorMessage = page.locator("[data-test='error']");
     }
   async goto() {
     await this.page.goto('/');
   }
   async login(username, password) {
-    await this.page.fill(this.usernameInput,username);
-    await this.page.fill(this.passwordInput,password);
-    await this.page.click(this.loginButton);
+    await this.usernameInput.fill(username);
+    await this.passwordInput.fill(password);
+    await this.loginButton.click();
+  
   }
    async getTitle(){
       return await this.page.title();
    }
 
   async getErrorMessage(){
-     return this.errorMessage.textContent();
+    await this.errorMessage.waitFor({ state: 'visible' });
+     return await this.errorMessage.textContent();
    }
+
   }
