@@ -1,5 +1,5 @@
-import { defineConfig, devices } from '@playwright/test';
 require('module-alias/register');
+import { defineConfig, devices } from '@playwright/test';
 
 export default defineConfig({
   testDir: './tests',

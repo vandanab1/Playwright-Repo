@@ -22,6 +22,8 @@
   },
   "_moduleAliases": {
     "@fixtures": "fixtures",
-    "@pages": "pages"
+    "@pages": "pages",
+    "@data": "data"
+
   }
 }
