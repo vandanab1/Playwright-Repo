@@ -2,21 +2,25 @@
   {
     "username": "standard_user",
     "password": "secret_sauce",
-    "expected": "success"
+    "expected": "success",
+    "type": "valid"
   },
   {
     "username": "locked_out_user",
     "password": "secret_sauce",
-    "expected": "failure"
+    "expected": "failure",
+    "type": "locked"
   },
   {
     "username": "problem_user",
     "password": "secret_sauce",
-    "expected": "success"
+    "expected": "success",
+    "type": "problem_user"
   },
   {
     "username": "performance_glitch_user",
     "password": "secret_sauce",
-    "expected": "success"
+    "expected": "success",
+    "type": "performance_glitch_user"
   }
 ]
