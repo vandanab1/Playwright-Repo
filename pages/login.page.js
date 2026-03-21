@@ -4,6 +4,7 @@ export class LoginPage {
     this.usernameInput = '#user-name';
     this.passwordInput = '#password';
     this.loginButton = '#login-button';
+    this.errorMessage = page.locator("[data-test='error']");
     }
   async goto() {
     await this.page.goto('/');
@@ -15,5 +16,9 @@ export class LoginPage {
   }
    async getTitle(){
       return await this.page.title();
+   }
+
+  async getErrorMessage(){
+     return this.errorMessage.textContent();
    }
   }

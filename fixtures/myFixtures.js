@@ -1,5 +1,3 @@
-require('module-alias/register');
-
 const {test:base,expect} = require('@playwright/test');
 const {LoginPage} = require('@pages/login.page');
 const {ProductPage} = require('@pages/product.page');
@@ -20,4 +18,3 @@ const test = base.extend({
 
 });
 module.exports = {test,expect};
-

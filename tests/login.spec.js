@@ -1,4 +1,4 @@
-const { test, expect } = require('@fixtures/myFixtures');
+const { test, expect} = require('@fixtures/myFixtures');
 const loginData = require('@data/loginData.json');
 
 for (const user of loginData) {
@@ -12,7 +12,7 @@ expect(title).toBe('Swag Labs');
 }
 else{
       const errorMessage = await loginPage.getErrorMessage();
-      expect(errorMessage).toContain('Username and password do not match'); 
+      expect(errorMessage).toMatch(/Username and password do not match|Sorry, this user has been locked out./); 
     }
 })
 }

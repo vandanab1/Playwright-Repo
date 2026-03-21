@@ -23,7 +23,7 @@
   "_moduleAliases": {
     "@fixtures": "fixtures",
     "@pages": "pages",
-    "@data": "data"
+    "@data": "test-data"
 
   }
 }
