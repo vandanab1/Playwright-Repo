@@ -1,20 +1,21 @@
-const {test:base,expect} = require('@playwright/test');
-const {LoginPage} = require('@pages/login.page');
-const {ProductPage} = require('@pages/product.page');
-const loginData = require('@data/loginData.json');
+// @ts-check
+import { test as base, expect } from '@playwright/test';
+import { LoginPage } from '@pages/loginPage.js';
+import { ProductPage } from '@pages/productPage.js';
+import loginData from '@data/loginData.json' assert { type: 'json' };
 
-const test = base.extend({
-  //custom fixture for page objects
-  loginPage: async ({page},use) => {
-  await use(new LoginPage(page));
+export const test = base.extend({
+  // custom fixture for page objects
+  loginPage: async ({ page }, use) => {
+    await use(new LoginPage(page));
   },
-  productPage: async ({page},use) => {
+  productPage: async ({ page }, use) => {
     await use(new ProductPage(page));
   },
-   // custom fixture for test data
-  testData: async ({}, use) => {
-    await use(loginData);
-  }
-
+  // custom fixture for test data
+  // testData: async ({}, use) => {
+  //   await use(loginData);
+  // }
 });
-module.exports = {test,expect};
+
+export {expect };

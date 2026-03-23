@@ -1,4 +1,4 @@
-require('module-alias/register');
+import 'module-alias/register';
 import { defineConfig, devices } from '@playwright/test';
 import env from './config/env.js';
 

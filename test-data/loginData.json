@@ -9,7 +9,8 @@
     "username": "locked_out_user",
     "password": "secret_sauce",
     "expected": "failure",
-    "type": "locked"
+    "type": "locked",
+    "error": "Sorry, this user has been locked out."
   },
   {
     "username": "problem_user",

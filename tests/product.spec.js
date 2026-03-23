@@ -1,5 +1,5 @@
-const { test, expect } = require('@fixtures/myFixtures');
-const loginData = require('@data/loginData.json');
+import { test, expect } from '@fixtures/myFixtures';
+import loginData from '@data/loginData.json' assert { type: 'json' };
 
 test('Validation product', async({loginPage,productPage})=>{
 const validUser = loginData.find(u => u.type === 'valid');

@@ -1,5 +1,5 @@
-const { test, expect} = require('@fixtures/myFixtures');
-const loginData = require('@data/loginData.json');
+import { test, expect } from '@fixtures/myFixtures';
+import loginData from '@data/loginData.json' assert { type: 'json' };
 
 test.describe('Login Tests', () => {
    
@@ -16,7 +16,7 @@ const title = await loginPage.getTitle();
 expect(title).toBe('Swag Labs');
 }
 else{
-      const errorMessage = await loginPage.getErrorMessage();
+const errorMessage = await loginPage.getErrorMessage();
 expect(errorMessage).toContain("Epic sadface: Sorry, this user has been locked out.");
     }
 });
