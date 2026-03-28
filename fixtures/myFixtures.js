@@ -1,4 +1,3 @@
-// @ts-check
 import { test as base, expect } from '@playwright/test';
 import { LoginPage } from '@pages/loginPage.js';
 import { ProductPage } from '@pages/productPage.js';
@@ -13,9 +12,9 @@ export const test = base.extend({
     await use(new ProductPage(page));
   },
   // custom fixture for test data
-  // testData: async ({}, use) => {
-  //   await use(loginData);
-  // }
+  testData: async ({}, use) => {
+    await use(loginData);
+  }
 });
 
 export {expect };

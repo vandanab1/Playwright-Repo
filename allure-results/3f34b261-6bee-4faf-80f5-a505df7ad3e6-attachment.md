@@ -1,0 +1,151 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - img [ref=e7]
+          - generic [ref=e11]:
+            - heading "QA Platform" [level=1] [ref=e12]
+            - paragraph [ref=e13]: Practice & Learn
+        - generic [ref=e14]:
+          - navigation [ref=e15]:
+            - link "Dashboard" [ref=e16] [cursor=pointer]:
+              - /url: /dashboard/
+              - generic [ref=e17]:
+                - img [ref=e18]
+                - generic [ref=e21]: Dashboard
+            - link "Drag and Drop" [ref=e22] [cursor=pointer]:
+              - /url: /drag-and-drop/
+              - generic [ref=e23]:
+                - img [ref=e24]
+                - generic [ref=e28]: Drag and Drop
+            - link "File Operations" [ref=e29] [cursor=pointer]:
+              - /url: /file-operations/
+              - generic [ref=e30]:
+                - img [ref=e31]
+                - generic [ref=e34]: File Operations
+            - link "Dynamic Elements" [ref=e35] [cursor=pointer]:
+              - /url: /dynamic-elements/
+              - generic [ref=e36]:
+                - img [ref=e37]
+                - generic [ref=e39]: Dynamic Elements
+            - link "iFrames & Windows" [ref=e40] [cursor=pointer]:
+              - /url: /iframe-windows/
+              - generic [ref=e41]:
+                - img [ref=e42]
+                - generic [ref=e46]: iFrames & Windows
+            - link "Keyboard & Mouse Events" [ref=e47] [cursor=pointer]:
+              - /url: /keyboard-mouse-events/
+              - generic [ref=e48]:
+                - img [ref=e49]
+                - generic [ref=e51]: Keyboard & Mouse Events
+            - link "Shadow DOM" [ref=e52] [cursor=pointer]:
+              - /url: /shadow-dom/
+              - generic [ref=e53]:
+                - img [ref=e54]
+                - generic [ref=e57]: Shadow DOM
+            - link "Self-Healing Testing" [ref=e58] [cursor=pointer]:
+              - /url: /self-healing-testing/
+              - generic [ref=e59]:
+                - img [ref=e60]
+                - generic [ref=e65]: Self-Healing Testing
+          - navigation [ref=e67]:
+            - link "Capybara Testing" [ref=e68] [cursor=pointer]:
+              - /url: /capybara-api/
+              - generic [ref=e69]:
+                - img [ref=e70]
+                - generic [ref=e73]: Capybara Testing
+          - link "Support Project" [ref=e75] [cursor=pointer]:
+            - /url: https://www.naffy.io/vadim-leavitskiy
+            - img [ref=e76]
+            - generic [ref=e78]: Support Project
+        - link "Guest Mode Click to sign in" [ref=e80] [cursor=pointer]:
+          - /url: /login/
+          - generic [ref=e81]:
+            - img [ref=e83]
+            - generic [ref=e86]:
+              - paragraph [ref=e87]: Guest Mode
+              - paragraph [ref=e88]: Click to sign in
+      - main [ref=e90]:
+        - generic [ref=e92]:
+          - generic [ref=e93]:
+            - heading "Shadow DOM Practice" [level=1] [ref=e94]
+            - paragraph [ref=e95]: Learn to work with web components and shadow root
+          - button "Reset All" [ref=e97] [cursor=pointer]:
+            - img [ref=e98]
+            - text: Reset All
+        - generic [ref=e103]:
+          - alert [ref=e104]:
+            - img [ref=e105]
+            - generic [ref=e108]:
+              - heading "Shadow DOM & Web Components" [level=3] [ref=e109]
+              - paragraph [ref=e110]: "Practice working with Shadow DOM for component encapsulation:"
+              - list [ref=e111]:
+                - listitem [ref=e112]:
+                  - strong [ref=e113]: "Shadow DOM:"
+                  - text: Practice with encapsulated DOM and styles
+                - listitem [ref=e114]:
+                  - strong [ref=e115]: "Positioning:"
+                  - text: Shadow DOM appears positioned below the container
+                - listitem [ref=e116]:
+                  - strong [ref=e117]: "Isolation:"
+                  - text: Styles are completely isolated from the main page
+                - listitem [ref=e118]:
+                  - strong [ref=e119]: "Testing:"
+                  - text: Use selenium to access shadow content via shadowRoot property
+          - generic [ref=e120]:
+            - generic [ref=e122]:
+              - heading "Shadow DOM Scenarios" [level=3] [ref=e124]:
+                - img [ref=e125]
+                - text: Shadow DOM Scenarios
+              - generic [ref=e130]:
+                - heading "1. Basic Shadow DOM" [level=4] [ref=e132]
+                - paragraph [ref=e133]: Click the button below to create a shadow DOM that appears positioned below this container
+                - generic [ref=e135]:
+                  - paragraph [ref=e136]: Shadow DOM will appear positioned below this area
+                  - paragraph [ref=e137]: 📍 Look for the lime-green container with red border
+                - button "Create Basic Shadow DOM" [ref=e138] [cursor=pointer]
+            - generic [ref=e140]:
+              - heading "Progress & Action Log" [level=3] [ref=e142]:
+                - img [ref=e143]
+                - text: Progress & Action Log
+              - generic [ref=e147]:
+                - generic [ref=e149]:
+                  - generic [ref=e150]: Basic Shadow DOM
+                  - generic [ref=e151]: ○ Pending
+                - generic [ref=e152]:
+                  - heading "Recent Actions:" [level=4] [ref=e153]
+                  - generic [ref=e155]: No actions yet - start a scenario to see logs
+                - generic [ref=e156]:
+                  - heading "Selenium Shadow DOM Tips:" [level=4] [ref=e157]
+                  - generic [ref=e158]:
+                    - generic [ref=e159]:
+                      - code [ref=e160]: driver.find_element(By.ID, "shadow-host-element")
+                      - text: "- Find shadow host"
+                    - generic [ref=e161]:
+                      - code [ref=e162]: element.shadow_root
+                      - text: "- Access shadow root"
+                    - code [ref=e164]: execute_script("return arguments[0].shadowRoot")
+                    - code [ref=e166]: shadow_root.find_element(By.CSS_SELECTOR, "button")
+    - generic [ref=e169]:
+      - img [ref=e171]
+      - generic [ref=e173]:
+        - heading "We use cookies to improve your experience" [level=3] [ref=e174]
+        - paragraph [ref=e175]: This free platform uses essential cookies for functionality and optional cookies for analytics to help us improve the service. You can customize your preferences or accept all cookies.
+        - generic [ref=e176]:
+          - button "Accept All" [ref=e177] [cursor=pointer]
+          - button "Essential Only" [ref=e178] [cursor=pointer]
+          - button "Customize" [ref=e179] [cursor=pointer]:
+            - img [ref=e180]
+            - text: Customize
+        - paragraph [ref=e183]:
+          - text: Learn more in our
+          - link "Privacy Policy" [ref=e184] [cursor=pointer]:
+            - /url: /privacy/
+      - button "Close cookie banner" [ref=e185] [cursor=pointer]:
+        - img [ref=e186]
+  - alert [ref=e189]
+```

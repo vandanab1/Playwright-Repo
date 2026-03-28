@@ -1,0 +1,158 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - paragraph [ref=e3]:
+    - link "PMP Practice" [ref=e4] [cursor=pointer]:
+      - /url: https://pmp.expandtesting.com/
+    - text: "| Free PMP Certification Mock Exam Test +900 Questions & Quizzes"
+    - link "Certification mock exams" [ref=e5] [cursor=pointer]:
+      - img [ref=e7]
+      - text: Certification mock exams
+  - banner [ref=e10]:
+    - navigation "Main navigation" [ref=e11]:
+      - link "SUT" [ref=e12] [cursor=pointer]:
+        - /url: /
+        - 'img "Best Website for Practice Automation Testing: Free UI and REST API Examples and Apps. Using Cypress, Playwright, Selenium, WebdriverIO and Postman." [ref=e13]'
+        - text: Practice
+      - generic [ref=e14]:
+        - list [ref=e15]:
+          - listitem [ref=e16]:
+            - button "Demos" [ref=e17] [cursor=pointer]
+          - listitem [ref=e18]:
+            - link "Tools" [ref=e19] [cursor=pointer]:
+              - /url: /#tools
+          - listitem [ref=e20]:
+            - link "Tips" [ref=e21] [cursor=pointer]:
+              - /url: /tips
+          - listitem [ref=e22]:
+            - link "Test Cases" [ref=e23] [cursor=pointer]:
+              - /url: /test-cases
+          - listitem [ref=e24]:
+            - link "API Testing" [ref=e25] [cursor=pointer]:
+              - /url: /notes/api/api-docs/
+          - listitem [ref=e26]:
+            - link "About" [ref=e27] [cursor=pointer]:
+              - /url: /about
+        - list
+        - link "Free ISTQB Mock Exams" [ref=e28] [cursor=pointer]:
+          - /url: https://istqb.expandtesting.com/
+  - main [ref=e29]:
+    - insertion [ref=e33]:
+      - iframe [ref=e35]:
+        - generic [active] [ref=f3e1]:
+          - generic [ref=f3e6]:
+            - link [ref=f3e7] [cursor=pointer]:
+              - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CZwZdPVfCaa-INteI998PuqCPsQWC14PvgwGi1aPWihTa2R4QASCVlJmjAWDlmumD4A6gAZSB9eooyAEJqQLDuUUW2bcuPqgDAcgDywSqBPkBT9A3Gj8r5jViq6DBaxsLOzuw3oEZRzi4VnQWE8otOQT7W2vi55-cChADB8O0P72GjAP7b4QumNTq9gFO8uYzYXS_oTXJoyTkutIgtEGkcZK6GG8OqusbwjLb6zAtcnFzvtCdQQC-XB25POjjrXu1BrAZv3SdwxxesvQe02eIVTzWmC03RFt1KjJF4zQgVwKeUfxpUvdaHgpCYMincWNa44iTIKToBaylLb7mHU4WjRqMuoFRDZNrxjIDgBeV0_IgyqqprR4vSiCqdC5B2iqLPqa0GYsAZUbgRYlXGj3STS25kaK1m_QNcRNKL25d7zr8NDnGOiegr6pTwATewpK1nAWIBeCqxt5ToAYugAeUucXKA6gHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIILwiAYRABGJ8DMgiKgoCAgICACDoNgECAwICAgICogAKoA0i9_cE6WKLOyr2auJMDsQmcSt0SoDpu0IAKAZgLAcgLAYAMAaIMDyoKCgiO37ECleKxApABAaoNAklOyA0B6g0TCNSg0L2auJMDFVfE_QUdOtAjVvANAogOCdgTDYgUCNAVAZgWAcoWAgoA-BYBgBcBshcQGAEqCjQ5NzAyMTIyMjFQBroXAjgBqhgXCQAAAACixSdBEgo0OTcwMjEyMjIxGAGyGAkSAqtOGC4iAQDQGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMI75rQvZq4kwMVV8T9BR060CNWEAEYASAAEgKtbPD_BwE&num=1&cid=CAQS_AEABaugfWn7cBOA_VsVxm31P38CwKYeS1w0himM8u2WCw26DvLhZx55qiYnbQtnGAMSrEos0_VD0loQ-l83RBpme1zWp_7fyKrIKb8YMH5vMR1jAni3CLaO9hIIXjGJuYrbokirXEaXSyj06aq70wkX2xxDEMyAElwq9-Vj6LEcrd7p08eqlsZ2dQrk3_caZVUELOLxfluNtv1P6IFcIIsmoL37VxiS59jUPEz_43XjHuxTqofwTKhmQkAKzJqgAItGbZWCbqRQHT7sb7fB25OIz4nBgb8r0vaBaNO3zoMdlgs02_k43V9ArpDSFSLZOR6o9SM6DKXiYwKOWKAYAQ&sig=AOD64_2sI1dcQBL51UcMQ5HiAq4Q5vrG1g&client=ca-pub-1056034821646296&rf=1&nb=9&adurl=https://bentham.manuscriptpoint.com/journals/CBIO%3Futm_source%3Dgoogleads%26utm_medium%3Dppc%26campaignid%3D22478427488%26utm_campaign%3DDisplay_CBIO%26utm_term%3D%26utm_content%3Dad%26gad_source%3D5%26gad_campaignid%3D22478427488%26gclid%3DEAIaIQobChMI75rQvZq4kwMVV8T9BR060CNWEAEYASAAEgKtbPD_BwE
+              - img [ref=f3e8]
+            - generic [ref=f3e10]:
+              - generic [ref=f3e13]:
+                - link "Submit Your Paper Today" [ref=f3e17] [cursor=pointer]:
+                  - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CZwZdPVfCaa-INteI998PuqCPsQWC14PvgwGi1aPWihTa2R4QASCVlJmjAWDlmumD4A6gAZSB9eooyAEJqQLDuUUW2bcuPqgDAcgDywSqBPkBT9A3Gj8r5jViq6DBaxsLOzuw3oEZRzi4VnQWE8otOQT7W2vi55-cChADB8O0P72GjAP7b4QumNTq9gFO8uYzYXS_oTXJoyTkutIgtEGkcZK6GG8OqusbwjLb6zAtcnFzvtCdQQC-XB25POjjrXu1BrAZv3SdwxxesvQe02eIVTzWmC03RFt1KjJF4zQgVwKeUfxpUvdaHgpCYMincWNa44iTIKToBaylLb7mHU4WjRqMuoFRDZNrxjIDgBeV0_IgyqqprR4vSiCqdC5B2iqLPqa0GYsAZUbgRYlXGj3STS25kaK1m_QNcRNKL25d7zr8NDnGOiegr6pTwATewpK1nAWIBeCqxt5ToAYugAeUucXKA6gHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIILwiAYRABGJ8DMgiKgoCAgICACDoNgECAwICAgICogAKoA0i9_cE6WKLOyr2auJMDsQmcSt0SoDpu0IAKAZgLAcgLAYAMAaIMDyoKCgiO37ECleKxApABAaoNAklOyA0B6g0TCNSg0L2auJMDFVfE_QUdOtAjVvANAogOCdgTDYgUCNAVAZgWAcoWAgoA-BYBgBcBshcQGAEqCjQ5NzAyMTIyMjFQBroXAjgBqhgXCQAAAACixSdBEgo0OTcwMjEyMjIxGAGyGAkSAqtOGC4iAQDQGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMI75rQvZq4kwMVV8T9BR060CNWEAEYASAAEgKtbPD_BwE&num=1&cid=CAQS_AEABaugfWn7cBOA_VsVxm31P38CwKYeS1w0himM8u2WCw26DvLhZx55qiYnbQtnGAMSrEos0_VD0loQ-l83RBpme1zWp_7fyKrIKb8YMH5vMR1jAni3CLaO9hIIXjGJuYrbokirXEaXSyj06aq70wkX2xxDEMyAElwq9-Vj6LEcrd7p08eqlsZ2dQrk3_caZVUELOLxfluNtv1P6IFcIIsmoL37VxiS59jUPEz_43XjHuxTqofwTKhmQkAKzJqgAItGbZWCbqRQHT7sb7fB25OIz4nBgb8r0vaBaNO3zoMdlgs02_k43V9ArpDSFSLZOR6o9SM6DKXiYwKOWKAYAQ&sig=AOD64_2sI1dcQBL51UcMQ5HiAq4Q5vrG1g&client=ca-pub-1056034821646296&rf=1&nb=0&adurl=https://bentham.manuscriptpoint.com/journals/CBIO%3Futm_source%3Dgoogleads%26utm_medium%3Dppc%26campaignid%3D22478427488%26utm_campaign%3DDisplay_CBIO%26utm_term%3D%26utm_content%3Dad%26gad_source%3D5%26gad_campaignid%3D22478427488%26gclid%3DEAIaIQobChMI75rQvZq4kwMVV8T9BR060CNWEAEYASAAEgKtbPD_BwE
+                - link "Rapid Publication. Reliable Peer-review. Low APCs. Indexed in Scopus." [ref=f3e21] [cursor=pointer]:
+                  - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CZwZdPVfCaa-INteI998PuqCPsQWC14PvgwGi1aPWihTa2R4QASCVlJmjAWDlmumD4A6gAZSB9eooyAEJqQLDuUUW2bcuPqgDAcgDywSqBPkBT9A3Gj8r5jViq6DBaxsLOzuw3oEZRzi4VnQWE8otOQT7W2vi55-cChADB8O0P72GjAP7b4QumNTq9gFO8uYzYXS_oTXJoyTkutIgtEGkcZK6GG8OqusbwjLb6zAtcnFzvtCdQQC-XB25POjjrXu1BrAZv3SdwxxesvQe02eIVTzWmC03RFt1KjJF4zQgVwKeUfxpUvdaHgpCYMincWNa44iTIKToBaylLb7mHU4WjRqMuoFRDZNrxjIDgBeV0_IgyqqprR4vSiCqdC5B2iqLPqa0GYsAZUbgRYlXGj3STS25kaK1m_QNcRNKL25d7zr8NDnGOiegr6pTwATewpK1nAWIBeCqxt5ToAYugAeUucXKA6gHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIILwiAYRABGJ8DMgiKgoCAgICACDoNgECAwICAgICogAKoA0i9_cE6WKLOyr2auJMDsQmcSt0SoDpu0IAKAZgLAcgLAYAMAaIMDyoKCgiO37ECleKxApABAaoNAklOyA0B6g0TCNSg0L2auJMDFVfE_QUdOtAjVvANAogOCdgTDYgUCNAVAZgWAcoWAgoA-BYBgBcBshcQGAEqCjQ5NzAyMTIyMjFQBroXAjgBqhgXCQAAAACixSdBEgo0OTcwMjEyMjIxGAGyGAkSAqtOGC4iAQDQGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMI75rQvZq4kwMVV8T9BR060CNWEAEYASAAEgKtbPD_BwE&num=1&cid=CAQS_AEABaugfWn7cBOA_VsVxm31P38CwKYeS1w0himM8u2WCw26DvLhZx55qiYnbQtnGAMSrEos0_VD0loQ-l83RBpme1zWp_7fyKrIKb8YMH5vMR1jAni3CLaO9hIIXjGJuYrbokirXEaXSyj06aq70wkX2xxDEMyAElwq9-Vj6LEcrd7p08eqlsZ2dQrk3_caZVUELOLxfluNtv1P6IFcIIsmoL37VxiS59jUPEz_43XjHuxTqofwTKhmQkAKzJqgAItGbZWCbqRQHT7sb7fB25OIz4nBgb8r0vaBaNO3zoMdlgs02_k43V9ArpDSFSLZOR6o9SM6DKXiYwKOWKAYAQ&sig=AOD64_2sI1dcQBL51UcMQ5HiAq4Q5vrG1g&client=ca-pub-1056034821646296&rf=1&nb=7&adurl=https://bentham.manuscriptpoint.com/journals/CBIO%3Futm_source%3Dgoogleads%26utm_medium%3Dppc%26campaignid%3D22478427488%26utm_campaign%3DDisplay_CBIO%26utm_term%3D%26utm_content%3Dad%26gad_source%3D5%26gad_campaignid%3D22478427488%26gclid%3DEAIaIQobChMI75rQvZq4kwMVV8T9BR060CNWEAEYASAAEgKtbPD_BwE
+              - generic [ref=f3e24]:
+                - link:
+                  - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CZwZdPVfCaa-INteI998PuqCPsQWC14PvgwGi1aPWihTa2R4QASCVlJmjAWDlmumD4A6gAZSB9eooyAEJqQLDuUUW2bcuPqgDAcgDywSqBPkBT9A3Gj8r5jViq6DBaxsLOzuw3oEZRzi4VnQWE8otOQT7W2vi55-cChADB8O0P72GjAP7b4QumNTq9gFO8uYzYXS_oTXJoyTkutIgtEGkcZK6GG8OqusbwjLb6zAtcnFzvtCdQQC-XB25POjjrXu1BrAZv3SdwxxesvQe02eIVTzWmC03RFt1KjJF4zQgVwKeUfxpUvdaHgpCYMincWNa44iTIKToBaylLb7mHU4WjRqMuoFRDZNrxjIDgBeV0_IgyqqprR4vSiCqdC5B2iqLPqa0GYsAZUbgRYlXGj3STS25kaK1m_QNcRNKL25d7zr8NDnGOiegr6pTwATewpK1nAWIBeCqxt5ToAYugAeUucXKA6gHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIILwiAYRABGJ8DMgiKgoCAgICACDoNgECAwICAgICogAKoA0i9_cE6WKLOyr2auJMDsQmcSt0SoDpu0IAKAZgLAcgLAYAMAaIMDyoKCgiO37ECleKxApABAaoNAklOyA0B6g0TCNSg0L2auJMDFVfE_QUdOtAjVvANAogOCdgTDYgUCNAVAZgWAcoWAgoA-BYBgBcBshcQGAEqCjQ5NzAyMTIyMjFQBroXAjgBqhgXCQAAAACixSdBEgo0OTcwMjEyMjIxGAGyGAkSAqtOGC4iAQDQGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMI75rQvZq4kwMVV8T9BR060CNWEAEYASAAEgKtbPD_BwE&num=1&cid=CAQS_AEABaugfWn7cBOA_VsVxm31P38CwKYeS1w0himM8u2WCw26DvLhZx55qiYnbQtnGAMSrEos0_VD0loQ-l83RBpme1zWp_7fyKrIKb8YMH5vMR1jAni3CLaO9hIIXjGJuYrbokirXEaXSyj06aq70wkX2xxDEMyAElwq9-Vj6LEcrd7p08eqlsZ2dQrk3_caZVUELOLxfluNtv1P6IFcIIsmoL37VxiS59jUPEz_43XjHuxTqofwTKhmQkAKzJqgAItGbZWCbqRQHT7sb7fB25OIz4nBgb8r0vaBaNO3zoMdlgs02_k43V9ArpDSFSLZOR6o9SM6DKXiYwKOWKAYAQ&sig=AOD64_2sI1dcQBL51UcMQ5HiAq4Q5vrG1g&client=ca-pub-1056034821646296&rf=1&nb=8&adurl=https://bentham.manuscriptpoint.com/journals/CBIO%3Futm_source%3Dgoogleads%26utm_medium%3Dppc%26campaignid%3D22478427488%26utm_campaign%3DDisplay_CBIO%26utm_term%3D%26utm_content%3Dad%26gad_source%3D5%26gad_campaignid%3D22478427488%26gclid%3DEAIaIQobChMI75rQvZq4kwMVV8T9BR060CNWEAEYASAAEgKtbPD_BwE
+                - link "Current Bioinformatics" [ref=f3e26] [cursor=pointer]:
+                  - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CZwZdPVfCaa-INteI998PuqCPsQWC14PvgwGi1aPWihTa2R4QASCVlJmjAWDlmumD4A6gAZSB9eooyAEJqQLDuUUW2bcuPqgDAcgDywSqBPkBT9A3Gj8r5jViq6DBaxsLOzuw3oEZRzi4VnQWE8otOQT7W2vi55-cChADB8O0P72GjAP7b4QumNTq9gFO8uYzYXS_oTXJoyTkutIgtEGkcZK6GG8OqusbwjLb6zAtcnFzvtCdQQC-XB25POjjrXu1BrAZv3SdwxxesvQe02eIVTzWmC03RFt1KjJF4zQgVwKeUfxpUvdaHgpCYMincWNa44iTIKToBaylLb7mHU4WjRqMuoFRDZNrxjIDgBeV0_IgyqqprR4vSiCqdC5B2iqLPqa0GYsAZUbgRYlXGj3STS25kaK1m_QNcRNKL25d7zr8NDnGOiegr6pTwATewpK1nAWIBeCqxt5ToAYugAeUucXKA6gHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIILwiAYRABGJ8DMgiKgoCAgICACDoNgECAwICAgICogAKoA0i9_cE6WKLOyr2auJMDsQmcSt0SoDpu0IAKAZgLAcgLAYAMAaIMDyoKCgiO37ECleKxApABAaoNAklOyA0B6g0TCNSg0L2auJMDFVfE_QUdOtAjVvANAogOCdgTDYgUCNAVAZgWAcoWAgoA-BYBgBcBshcQGAEqCjQ5NzAyMTIyMjFQBroXAjgBqhgXCQAAAACixSdBEgo0OTcwMjEyMjIxGAGyGAkSAqtOGC4iAQDQGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMI75rQvZq4kwMVV8T9BR060CNWEAEYASAAEgKtbPD_BwE&num=1&cid=CAQS_AEABaugfWn7cBOA_VsVxm31P38CwKYeS1w0himM8u2WCw26DvLhZx55qiYnbQtnGAMSrEos0_VD0loQ-l83RBpme1zWp_7fyKrIKb8YMH5vMR1jAni3CLaO9hIIXjGJuYrbokirXEaXSyj06aq70wkX2xxDEMyAElwq9-Vj6LEcrd7p08eqlsZ2dQrk3_caZVUELOLxfluNtv1P6IFcIIsmoL37VxiS59jUPEz_43XjHuxTqofwTKhmQkAKzJqgAItGbZWCbqRQHT7sb7fB25OIz4nBgb8r0vaBaNO3zoMdlgs02_k43V9ArpDSFSLZOR6o9SM6DKXiYwKOWKAYAQ&sig=AOD64_2sI1dcQBL51UcMQ5HiAq4Q5vrG1g&client=ca-pub-1056034821646296&rf=1&nb=1&adurl=https://bentham.manuscriptpoint.com/journals/CBIO%3Futm_source%3Dgoogleads%26utm_medium%3Dppc%26campaignid%3D22478427488%26utm_campaign%3DDisplay_CBIO%26utm_term%3D%26utm_content%3Dad%26gad_source%3D5%26gad_campaignid%3D22478427488%26gclid%3DEAIaIQobChMI75rQvZq4kwMVV8T9BR060CNWEAEYASAAEgKtbPD_BwE
+                - link "Learn More" [ref=f3e28] [cursor=pointer]:
+                  - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CZwZdPVfCaa-INteI998PuqCPsQWC14PvgwGi1aPWihTa2R4QASCVlJmjAWDlmumD4A6gAZSB9eooyAEJqQLDuUUW2bcuPqgDAcgDywSqBPkBT9A3Gj8r5jViq6DBaxsLOzuw3oEZRzi4VnQWE8otOQT7W2vi55-cChADB8O0P72GjAP7b4QumNTq9gFO8uYzYXS_oTXJoyTkutIgtEGkcZK6GG8OqusbwjLb6zAtcnFzvtCdQQC-XB25POjjrXu1BrAZv3SdwxxesvQe02eIVTzWmC03RFt1KjJF4zQgVwKeUfxpUvdaHgpCYMincWNa44iTIKToBaylLb7mHU4WjRqMuoFRDZNrxjIDgBeV0_IgyqqprR4vSiCqdC5B2iqLPqa0GYsAZUbgRYlXGj3STS25kaK1m_QNcRNKL25d7zr8NDnGOiegr6pTwATewpK1nAWIBeCqxt5ToAYugAeUucXKA6gHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIILwiAYRABGJ8DMgiKgoCAgICACDoNgECAwICAgICogAKoA0i9_cE6WKLOyr2auJMDsQmcSt0SoDpu0IAKAZgLAcgLAYAMAaIMDyoKCgiO37ECleKxApABAaoNAklOyA0B6g0TCNSg0L2auJMDFVfE_QUdOtAjVvANAogOCdgTDYgUCNAVAZgWAcoWAgoA-BYBgBcBshcQGAEqCjQ5NzAyMTIyMjFQBroXAjgBqhgXCQAAAACixSdBEgo0OTcwMjEyMjIxGAGyGAkSAqtOGC4iAQDQGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMI75rQvZq4kwMVV8T9BR060CNWEAEYASAAEgKtbPD_BwE&num=1&cid=CAQS_AEABaugfWn7cBOA_VsVxm31P38CwKYeS1w0himM8u2WCw26DvLhZx55qiYnbQtnGAMSrEos0_VD0loQ-l83RBpme1zWp_7fyKrIKb8YMH5vMR1jAni3CLaO9hIIXjGJuYrbokirXEaXSyj06aq70wkX2xxDEMyAElwq9-Vj6LEcrd7p08eqlsZ2dQrk3_caZVUELOLxfluNtv1P6IFcIIsmoL37VxiS59jUPEz_43XjHuxTqofwTKhmQkAKzJqgAItGbZWCbqRQHT7sb7fB25OIz4nBgb8r0vaBaNO3zoMdlgs02_k43V9ArpDSFSLZOR6o9SM6DKXiYwKOWKAYAQ&sig=AOD64_2sI1dcQBL51UcMQ5HiAq4Q5vrG1g&client=ca-pub-1056034821646296&rf=1&nb=8&adurl=https://bentham.manuscriptpoint.com/journals/CBIO%3Futm_source%3Dgoogleads%26utm_medium%3Dppc%26campaignid%3D22478427488%26utm_campaign%3DDisplay_CBIO%26utm_term%3D%26utm_content%3Dad%26gad_source%3D5%26gad_campaignid%3D22478427488%26gclid%3DEAIaIQobChMI75rQvZq4kwMVV8T9BR060CNWEAEYASAAEgKtbPD_BwE
+                - link [ref=f3e29] [cursor=pointer]:
+                  - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CZwZdPVfCaa-INteI998PuqCPsQWC14PvgwGi1aPWihTa2R4QASCVlJmjAWDlmumD4A6gAZSB9eooyAEJqQLDuUUW2bcuPqgDAcgDywSqBPkBT9A3Gj8r5jViq6DBaxsLOzuw3oEZRzi4VnQWE8otOQT7W2vi55-cChADB8O0P72GjAP7b4QumNTq9gFO8uYzYXS_oTXJoyTkutIgtEGkcZK6GG8OqusbwjLb6zAtcnFzvtCdQQC-XB25POjjrXu1BrAZv3SdwxxesvQe02eIVTzWmC03RFt1KjJF4zQgVwKeUfxpUvdaHgpCYMincWNa44iTIKToBaylLb7mHU4WjRqMuoFRDZNrxjIDgBeV0_IgyqqprR4vSiCqdC5B2iqLPqa0GYsAZUbgRYlXGj3STS25kaK1m_QNcRNKL25d7zr8NDnGOiegr6pTwATewpK1nAWIBeCqxt5ToAYugAeUucXKA6gHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIILwiAYRABGJ8DMgiKgoCAgICACDoNgECAwICAgICogAKoA0i9_cE6WKLOyr2auJMDsQmcSt0SoDpu0IAKAZgLAcgLAYAMAaIMDyoKCgiO37ECleKxApABAaoNAklOyA0B6g0TCNSg0L2auJMDFVfE_QUdOtAjVvANAogOCdgTDYgUCNAVAZgWAcoWAgoA-BYBgBcBshcQGAEqCjQ5NzAyMTIyMjFQBroXAjgBqhgXCQAAAACixSdBEgo0OTcwMjEyMjIxGAGyGAkSAqtOGC4iAQDQGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMI75rQvZq4kwMVV8T9BR060CNWEAEYASAAEgKtbPD_BwE&num=1&cid=CAQS_AEABaugfWn7cBOA_VsVxm31P38CwKYeS1w0himM8u2WCw26DvLhZx55qiYnbQtnGAMSrEos0_VD0loQ-l83RBpme1zWp_7fyKrIKb8YMH5vMR1jAni3CLaO9hIIXjGJuYrbokirXEaXSyj06aq70wkX2xxDEMyAElwq9-Vj6LEcrd7p08eqlsZ2dQrk3_caZVUELOLxfluNtv1P6IFcIIsmoL37VxiS59jUPEz_43XjHuxTqofwTKhmQkAKzJqgAItGbZWCbqRQHT7sb7fB25OIz4nBgb8r0vaBaNO3zoMdlgs02_k43V9ArpDSFSLZOR6o9SM6DKXiYwKOWKAYAQ&sig=AOD64_2sI1dcQBL51UcMQ5HiAq4Q5vrG1g&client=ca-pub-1056034821646296&rf=1&nb=8&adurl=https://bentham.manuscriptpoint.com/journals/CBIO%3Futm_source%3Dgoogleads%26utm_medium%3Dppc%26campaignid%3D22478427488%26utm_campaign%3DDisplay_CBIO%26utm_term%3D%26utm_content%3Dad%26gad_source%3D5%26gad_campaignid%3D22478427488%26gclid%3DEAIaIQobChMI75rQvZq4kwMVV8T9BR060CNWEAEYASAAEgKtbPD_BwE
+                  - generic [ref=f3e30]:
+                    - img [ref=f3e31]
+                    - img [ref=f3e33]
+          - img [ref=f3e41] [cursor=pointer]
+          - button [ref=f3e43] [cursor=pointer]:
+            - img [ref=f3e44]
+          - iframe
+    - paragraph [ref=e37]:
+      - text: Do you enjoy this platform? ❤️
+      - link "Buy us a coffee" [ref=e38] [cursor=pointer]:
+        - /url: https://www.buymeacoffee.com/expandtesting
+    - generic [ref=e39]:
+      - insertion [ref=e41]:
+        - generic [ref=e44]:
+          - heading "These are topics related to the article that might interest you" [level=2] [ref=e46]: Discover more
+          - link "API Testing Services" [ref=e47] [cursor=pointer]:
+            - generic "API Testing Services" [ref=e48]
+            - img [ref=e50]
+          - link "Test Case Management Software" [ref=e52] [cursor=pointer]:
+            - generic "Test Case Management Software" [ref=e53]
+            - img [ref=e55]
+          - link "Open Source" [ref=e57] [cursor=pointer]:
+            - generic "Open Source" [ref=e58]
+            - img [ref=e60]
+          - link "Selenium automation guides" [ref=e62] [cursor=pointer]:
+            - generic "Selenium automation guides" [ref=e63]
+            - img [ref=e65]
+          - link "Bug Tracking Software" [ref=e67] [cursor=pointer]:
+            - generic "Bug Tracking Software" [ref=e68]
+            - img [ref=e70]
+          - link "Cypress Automation Guides" [ref=e72] [cursor=pointer]:
+            - generic "Cypress Automation Guides" [ref=e73]
+            - img [ref=e75]
+          - link "Automation testing tools" [ref=e77] [cursor=pointer]:
+            - generic "Automation testing tools" [ref=e78]
+            - img [ref=e80]
+          - link "Web Design & Development" [ref=e82] [cursor=pointer]:
+            - generic "Web Design & Development" [ref=e83]
+            - img [ref=e85]
+      - generic [ref=e89]:
+        - navigation "breadcrumb mb-2" [ref=e90]:
+          - list [ref=e91]:
+            - listitem [ref=e92]:
+              - link "Home" [ref=e93] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e94]: / Shadow DOM
+        - heading "Shadow DOM page for Automation Testing Practice" [level=1] [ref=e95]
+        - generic [ref=e97]:
+          - paragraph [ref=e98]:
+            - text: Shadow DOM is a web standard that allows developers to encapsulate HTML markup, CSS styles, and JavaScript code within a custom HTML element, known as a Shadow DOM element.
+            - link "Automation practice website" [ref=e99] [cursor=pointer]:
+              - img [ref=e101]
+              - text: Automation practice website
+          - button "Here's a basic button example." [ref=e103] [cursor=pointer]
+          - button "This button is inside a Shadow DOM." [ref=e105] [cursor=pointer]
+      - insertion [ref=e107]:
+        - generic [ref=e110]:
+          - heading "These are topics related to the article that might interest you" [level=2] [ref=e112]: Discover more
+          - link "Software" [ref=e113] [cursor=pointer]:
+            - generic "Software" [ref=e114]
+            - img [ref=e116]
+          - link "Programming" [ref=e118] [cursor=pointer]:
+            - generic "Programming" [ref=e119]
+            - img [ref=e121]
+          - link "Networking" [ref=e123] [cursor=pointer]:
+            - generic "Networking" [ref=e124]
+            - img [ref=e126]
+          - link "Development Tools" [ref=e128] [cursor=pointer]:
+            - generic "Development Tools" [ref=e129]
+            - img [ref=e131]
+          - link "Computer Science" [ref=e133] [cursor=pointer]:
+            - generic "Computer Science" [ref=e134]
+            - img [ref=e136]
+          - link "Selenium practice website" [ref=e138] [cursor=pointer]:
+            - generic "Selenium practice website" [ref=e139]
+            - img [ref=e141]
+          - link "Website testing services" [ref=e143] [cursor=pointer]:
+            - generic "Website testing services" [ref=e144]
+            - img [ref=e146]
+          - link "Selenium WebDriver Training" [ref=e148] [cursor=pointer]:
+            - generic "Selenium WebDriver Training" [ref=e149]
+            - img [ref=e151]
+  - generic [ref=e153]:
+    - insertion:
+      - iframe [ref=e155]:
+        
+  - contentinfo [ref=e156]:
+    - generic [ref=e161]:
+      - heading "Practice Test Automation WebSite for Web UI and Rest API" [level=4] [ref=e162]
+      - paragraph [ref=e163]:
+        - text: "Version: e64cd80e | Copyright"
+        - link "Expand Testing" [ref=e164] [cursor=pointer]:
+          - /url: https://expandtesting.com/
+        - text: "2026"
+  - img [ref=e166] [cursor=pointer]
+```

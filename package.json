@@ -6,9 +6,7 @@
   "directories": {
     "test": "tests"
   },
-  "scripts": {
-    
-  },
+  "scripts": {},
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -22,10 +20,12 @@
     "dotenv": "^17.3.1",
     "module-alias": "^2.3.4"
   },
-  "_moduleAliases": {
-    "@fixtures": "fixtures",
-    "@pages": "pages",
-    "@data": "test-data"
-
-  }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vandanab1/Playwright-Repo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vandanab1/Playwright-Repo/issues"
+  },
+  "homepage": "https://github.com/vandanab1/Playwright-Repo#readme"
 }
